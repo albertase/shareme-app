@@ -44,7 +44,7 @@ const Navbar = ({ searchTerm, setSearchTerm, user }) => {
             <img src={user.image || "Good one"} alt="user-pic" onError={replaceAltImage} className="w-14 h-12 rounded-lg" title='View' />
           </Link>
           <Link to="/create-pin" className="bg-black text-white rounded-lg w-12 h-12 md:w-14 md:h-12 flex justify-center items-center">
-            <IoMdAdd title="Create Pin"/>
+          ➕Post
           </Link>
         </div>
       </div>
