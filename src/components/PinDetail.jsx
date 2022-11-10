@@ -8,7 +8,6 @@ import MasonryLayout from './MasonryLayout';
 import { pinDetailMorePinQuery, pinDetailQuery } from '../utils/data';
 import Spinner from './Spinner';
 import { replaceAltImage } from '../utils/exportFun';
-import moment from 'moment';
 
 const PinDetail = ({ user }) => {
   const { pinId } = useParams();
